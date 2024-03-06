@@ -16,9 +16,7 @@ function calc_total_price() {
         var $span_itemPurchased = $this.find('span[id^=itemPurchased_]');
         if ($span_itemRequested && $span_itemPurchased) {
             var $itemRequested = $span_itemRequested.text();
-            console.log('itemRequested', $itemRequested);
             var $itemPurchased = $span_itemPurchased.text();
-            console.log('itemPurchased', $itemPurchased);
             $price = $price * Math.max(($itemRequested - $itemPurchased), 0);
         }
 
