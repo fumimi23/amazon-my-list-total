@@ -1,5 +1,6 @@
 # Amazon wish list total price
 Amazon欲しいものリストの総額計算するChrome拡張機能
+
 希望数、所有数を加味している
 
 ## How to use
