@@ -1,2 +1,12 @@
-# amazon-my-list-total
+# Amazon wish list total price
 Amazon欲しいものリストの総額計算するChrome拡張機能
+希望数、所有数を加味している
+
+## How to use
+1. このリポジトリをクローン
+2. Chromeの拡張機能に追加
+3. Amazonの欲しいものリストページを開く
+4. 欲しいものリストを最後まで読み込む
+5. 拡張機能一覧から本拡張機能をクリック
+6. ポップアップのcalcボタンをクリック
+7. 総額が表示される
